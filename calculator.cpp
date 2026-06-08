@@ -23,9 +23,9 @@ int main()
             cout << "5. Modulus" << endl;
             cout << "Enter choice: ";
             cin >> choice;
-            if(choice < 0 || choice > 5)
+            if (choice < 0 || choice > 5)
             {
-                cout<<"\a";
+                cout << "\a";
             }
         } while (choice != 0 && choice != 1 && choice != 2 && choice != 3 && choice != 4 && choice != 5);
         if (choice == 0)
@@ -33,9 +33,9 @@ int main()
 
             cout << "Do you really wish to exit(y/n): ";
             cin >> choice1;
-            while ( choice1 != 'n' && choice1 != 'N' && choice1 != 'y' && choice1 != 'Y')
+            while (choice1 != 'n' && choice1 != 'N' && choice1 != 'y' && choice1 != 'Y')
             {
-                
+
                 cin.ignore(1000, '\n');
                 cout << endl
                      << "-----INVALID INPUT-----" << endl;
@@ -73,7 +73,7 @@ int main()
     } while (choice1 == 'n' || choice1 == 'N' || choice == 'n' || choice == 'N');
 }
 
-//FUNCTIONS
+// FUNCTIONS
 void addition()
 {
     double num1 = 0, num2 = 0;
@@ -123,18 +123,18 @@ void addition()
             cout << "Do you wish to add more numbers(y/n): ";
             cin >> choice;
         }
-       
-        while ( choice != 'n' && choice != 'N' && choice != 'y' && choice != 'Y')
-            {
-                
-                cin.ignore(1000, '\n');
-                cout << endl
-                     << "-----INVALID INPUT-----" << endl;
-                cout << "Input only contain (y/n)!\a" << endl;
-                cout << "Do you wish to add more numbers(y/n): ";
-                cin >> choice;
-            }
-            cin.ignore();
+
+        while (choice != 'n' && choice != 'N' && choice != 'y' && choice != 'Y')
+        {
+
+            cin.ignore(1000, '\n');
+            cout << endl
+                 << "-----INVALID INPUT-----" << endl;
+            cout << "Input only contain (y/n)!\a" << endl;
+            cout << "Do you wish to add more numbers(y/n): ";
+            cin >> choice;
+        }
+        cin.ignore();
     } while (choice == 'y' || choice == 'Y');
 }
 void subtraction()
@@ -186,17 +186,17 @@ void subtraction()
             cout << "Do you wish to subtract more numbers(y/n): ";
             cin >> choice;
         }
-         while ( choice != 'n' && choice != 'N' && choice != 'y' && choice != 'Y')
-            {
-                
-                cin.ignore(1000, '\n');
-                cout << endl
-                     << "-----INVALID INPUT-----" << endl;
-                cout << "Input only contain (y/n)!\a" << endl;
-                cout << "Do you wish to subtract more numbers(y/n): ";
-                cin >> choice;
-            }
-            cin.ignore();
+        while (choice != 'n' && choice != 'N' && choice != 'y' && choice != 'Y')
+        {
+
+            cin.ignore(1000, '\n');
+            cout << endl
+                 << "-----INVALID INPUT-----" << endl;
+            cout << "Input only contain (y/n)!\a" << endl;
+            cout << "Do you wish to subtract more numbers(y/n): ";
+            cin >> choice;
+        }
+        cin.ignore();
     } while (choice == 'y' || choice == 'Y');
 }
 void multiply()
@@ -248,17 +248,17 @@ void multiply()
             cout << "Do you wish to multilply more numbers(y/n): ";
             cin >> choice;
         }
-        while ( choice != 'n' && choice != 'N' && choice != 'y' && choice != 'Y')
-            {
-                
-                cin.ignore(1000, '\n');
-                cout << endl
-                     << "-----INVALID INPUT-----" << endl;
-                cout << "Input only contain (y/n)!\a" << endl;
-                cout << "Do you wish to multiply more numbers(y/n): ";
-                cin >> choice;
-            }
-            cin.ignore();
+        while (choice != 'n' && choice != 'N' && choice != 'y' && choice != 'Y')
+        {
+
+            cin.ignore(1000, '\n');
+            cout << endl
+                 << "-----INVALID INPUT-----" << endl;
+            cout << "Input only contain (y/n)!\a" << endl;
+            cout << "Do you wish to multiply more numbers(y/n): ";
+            cin >> choice;
+        }
+        cin.ignore();
     } while (choice == 'y' || choice == 'Y');
 }
 void division()
@@ -318,17 +318,17 @@ void division()
             cout << "Do you wish to divide more numbers(y/n): ";
             cin >> choice;
         }
-       while ( choice != 'n' && choice != 'N' && choice != 'y' && choice != 'Y')
-            {
-                
-                cin.ignore(1000, '\n');
-                cout << endl
-                     << "-----INVALID INPUT-----" << endl;
-                cout << "Input only contain (y/n)!\a" << endl;
-                cout << "Do you wish to divide more numbers(y/n): ";
-                cin >> choice;
-            }
-            cin.ignore();
+        while (choice != 'n' && choice != 'N' && choice != 'y' && choice != 'Y')
+        {
+
+            cin.ignore(1000, '\n');
+            cout << endl
+                 << "-----INVALID INPUT-----" << endl;
+            cout << "Input only contain (y/n)!\a" << endl;
+            cout << "Do you wish to divide more numbers(y/n): ";
+            cin >> choice;
+        }
+        cin.ignore();
     } while (choice == 'y' || choice == 'Y');
 }
 void mod()
@@ -388,16 +388,16 @@ void mod()
             cout << "Do you wish to find mod of more numbers(y/n): ";
             cin >> choice;
         }
-         while ( choice != 'n' && choice != 'N' && choice != 'y' && choice != 'Y')
-            {
-                
-                cin.ignore(1000, '\n');
-                cout << endl
-                     << "-----INVALID INPUT-----" << endl;
-                cout << "Input only contain (y/n)!\a" << endl;
-                cout << "Do you wish to find mod of more numbers(y/n): ";
-                cin >> choice;
-            }
-            cin.ignore();
+        while (choice != 'n' && choice != 'N' && choice != 'y' && choice != 'Y')
+        {
+
+            cin.ignore(1000, '\n');
+            cout << endl
+                 << "-----INVALID INPUT-----" << endl;
+            cout << "Input only contain (y/n)!\a" << endl;
+            cout << "Do you wish to find mod of more numbers(y/n): ";
+            cin >> choice;
+        }
+        cin.ignore();
     } while (choice == 'y' || choice == 'Y');
 }
