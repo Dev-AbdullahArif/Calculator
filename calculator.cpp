@@ -25,7 +25,9 @@ int main()
             cin >> choice;
             if (choice < 0 || choice > 5)
             {
-                cout << "\a";
+                cout << endl
+                     << "-----Inavlid choice-----\a" << endl
+                     << endl;
             }
         } while (choice != 0 && choice != 1 && choice != 2 && choice != 3 && choice != 4 && choice != 5);
         if (choice == 0)
